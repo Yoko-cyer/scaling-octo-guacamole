@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div class="container">
+      
+      <form id="search-form">
+        <input 
+         type="search"
+         placeholder="Type a city..."
+         autofocus="on"
+         autocomplete="off"
+         id= "city-input">
+        <input 
+         type="submit" 
+         value="search"
+         id ="input-button">  
+      </form>
+
+      <h1 id="city">
+        Sapporo <span>🌅</span>
+      </h1>
+      <h2>
+        Mon Nov 2, 13:00, 2020
+      </h2>
+      <div class="row">
+        <div class="col-6">
+          Tempurature 18 
+          <a href = "#" id = c-link>℃</a> |
+          <a href = "#" id = F-link>℉ </a>
+        </div>
+        <div class="col-6">
+          Humidity 50%
+        </div>
+        <div class="col-6">
+          Rain fall 30%
+        </div>
+        <div class="col-6">
+          Sun protection alert
+        </div>
+      </div>
+      
+        <div class="row">
+          <div class="col-2">
+            Monday
+          </div>
+          <div class="col-2">
+            Tuesday
+          </div>
+          <div class="col-2">
+            Wednesday
+          </div>
+          <div class="col-2">
+            Thursday
+          </div>
+          <div class="col-2">
+            Friday
+          </div>
+        </div>
+
+
+    </div>
+    <script src="src/text.js"></script>    
+</body>
+</html>
